@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(166, 174, 174);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    padding: 1rem;
+    background-image: url('semi_trucks.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+h1{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+h3 {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    
+}
+
+h5 {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    
+}
+
+h6 {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    
+}
+
+
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(70, 4, 0, 0.589);
+    font-weight: bold;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(70, 4, 0, 0.589); /* Green background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: rgba(55, 3, 1, 0.589); /* Darker green on hover */
+}
+
+.nav-button:active {
+    background-color: rgba(45, 4, 2, 0.589); /* Even darker when clicked */
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+#services ul {
+    list-style-type: symbols();
+}
+
+#contact p {
+    margin-bottom: 0.5rem;
+}
+
