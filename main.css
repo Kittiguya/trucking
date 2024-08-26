@@ -9,7 +9,7 @@ body {
     font-size: 16px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #ffffff; /* Ensure it's not black here */
+    background-color: #ffffff;
 }
 
 header {
@@ -94,6 +94,7 @@ footer {
 @media (min-width: 768px) {
     body {
         font-size: 18px;
+        background-color: #ffffff;
     }
 
     .flex-container {
@@ -118,6 +119,7 @@ footer {
 @media (min-width: 1024px) {
     body {
         font-size: 20px;
+        background-color: #ffffff;
     }
 
     .flex-container {
